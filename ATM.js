@@ -40,8 +40,8 @@ const account = document.getElementById('account');
 
 const selectAccount = () => {
     if(!password_unlock) return;
-    console.log(account.classList)
-    account.classList.remove('none')
+    console.log(account.classList);
+    account.classList.remove('none');
     for(ele of card["accounts"]) {
         const btn = document.createElement('button');
 
