@@ -83,6 +83,3 @@ const show = (ele) => {
     root.appendChild(btn_deposit)
     root.appendChild(btn_withdraw)
 }
-
-
-
